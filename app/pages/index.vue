@@ -37,7 +37,7 @@
         <img
           alt="Hero"
           class="rounded shadow-xl"
-          src="require(/images/uploads/pexels-caitlin-whealy-3517316-5652626.jpg)"
+          :src="imageSrc"
         />
       </div>
     </div>
@@ -56,7 +56,7 @@ import settings from '@/content/settings/general.json';
 })
 export default class Home extends Vue {
   welcomeText = settings.welcomeText;
-
+  imageSrc = require('@/images/uploads/pexels-caitlin-whealy-3517316-5652626.jpg');
   get posts(): Post[] {
     return this.$store.state.posts;
   }
