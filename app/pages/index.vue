@@ -20,9 +20,9 @@
 
 <style scoped>
 .phone-number {
-  font-size: 36px; /* Make the font size large */
-  color: #ff0000; /* Change the color to red for emphasis */
-  font-weight: bold; /* Make the font bold */
+  font-size: 24px; /* Adjust the font size to be smaller */
+  color: #d35400; /* Change the color to a dark orange */
+  font-weight: bold; /* Keep the font bold */
   text-align: center; /* Center the text */
   margin-top: 20px; /* Add some margin for spacing */
 }
