@@ -5,7 +5,7 @@
         <img :src="logo" alt="Logo" />
       </nuxt-link>
       <div class="header__heading ml-4">
-        <h1 class="text-xl font-bold">Your Heading Text</h1>
+        <h1 class="text-xl font-bold">West Desert Pressure Washing</h1>
       </div>
     </div>
 
