@@ -37,7 +37,7 @@
         <img
           alt="Hero"
           class="rounded shadow-xl"
-          src="/images/uploads/pexels-caitlin-whealy-3517316-5652626.jpg"
+          src="https://via.placeholder.com/600"
         />
       </div>
     </div>
