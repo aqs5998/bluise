@@ -18,6 +18,15 @@
   </section>
 </template>
 
+<style scoped>
+.phone-number {
+  font-size: 36px; /* Make the font size large */
+  color: #ff0000; /* Change the color to red for emphasis */
+  font-weight: bold; /* Make the font bold */
+  text-align: center; /* Center the text */
+  margin-top: 20px; /* Add some margin for spacing */
+}
+</style>
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
 import settings from '@/content/settings/general.json';
