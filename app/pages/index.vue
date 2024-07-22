@@ -30,6 +30,7 @@ import settings from '@/content/settings/general.json';
 })
 export default class Home extends Vue {
   welcomeText = settings.welcomeText;
+  phoneNumber = '123-456-7890';
   get posts(): Post[] {
     return this.$store.state.posts;
   }
